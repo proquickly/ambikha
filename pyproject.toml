@@ -1,0 +1,17 @@
+[project]
+name = "ambikha"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Andy Miles", email = "andy@proquickly.com" }
+]
+requires-python = ">=3.12"
+dependencies = []
+
+[project.scripts]
+ambikha = "ambikha:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
